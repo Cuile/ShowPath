@@ -17,7 +17,7 @@ pip install sequence2hash
 ## Examples
 Define the sequence variable:
 ```Python
-Parameters = {
+parameters = {
     'queryKey': '',
     'constraints': {
         'ids': [],
