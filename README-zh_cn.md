@@ -62,3 +62,6 @@ for x in sequence2hash.flatten(parameters):
 {'key': ['constraints', 'colors', '2'], 'value': 'red'}
 {'key': ['order'], 'value': 'newest'}
 ```
+
+## 鸣谢
+- [Python Cookbook 3rd Edition Documentation](http://python3-cookbook.readthedocs.io/zh_CN/latest/) : 人生苦短，我用 Python！
