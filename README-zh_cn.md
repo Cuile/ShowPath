@@ -19,7 +19,7 @@ pip install sequence2hash
 ```
 
 ## Quick Start
-
+定义序列变量：
 ```Python
 parameters = {
     'queryKey': '',
@@ -45,11 +45,13 @@ parameters = {
     'limit': {}
 }
 ```
+调用：
 ```Python
 import sequence2hash
 for x in sequence2hash.flatten(parameters):
     print(x)
 ```
+输出：
 ```Bash
 {'key': ['constraints', 'name'], 'value': '运营平台'}
 {'key': ['constraints', 'members', '0'], 'value': 'Bunoob'}
