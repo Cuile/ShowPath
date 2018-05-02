@@ -31,7 +31,7 @@ def flatten(items, ignore_types=(str, bytes)):
         if isinstance(x, Iterable) and not isinstance(x, ignore_types):
             yield from flatten(x)
         else:
-            yield {'path': path, 'value': x}
+            yield {'key': path, 'value': x}
 
         # 循环结束，删除当前路径
         path.pop()
