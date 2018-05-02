@@ -60,4 +60,4 @@ Output:
 ```
 
 ## Credits
-- [Python Cookbook 3rd Edition Documentation] (http://python3-cookbook.readthedocs.io/zh_CN/latest/) : Life is short and I use Python!
+- [Python Cookbook 3rd Edition Documentation](http://python3-cookbook.readthedocs.io/zh_CN/latest/) : Life is short and I use Python!
