@@ -1,19 +1,15 @@
 # sequence2hash - Convert sequence to hash
-
 This tool converts a valid value in a sequence to a hash and contains a path to a valid value in the key field
 
 ## Features
-
 - Convert valid values ​​in the sequence to hashes
 - Paths showing valid values ​​in the key field
 - Valid values ​​not (), [], {}, None, ''
 
 ## Requirements
-
 - Does not require any third party libraries
 
 ## Installation
-
 ```Bash
 pip install sequence2hash
 ```
