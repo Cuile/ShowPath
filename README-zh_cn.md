@@ -2,23 +2,23 @@
 
 这个工具将 序列中的有效值 转为 哈希值，并在key字段中包含有效值的路径
 
-## Features
+## 功能
 
 - 将序列中的有效值转为哈希值
 - 在key字段里展示有效值的路径
 - 有效值 not () , [] , {} , None , ''
 
-## Requirements
+## 需求
 
 - 不需要任何第三方库
 
-## Installation
+## 安装
 
 ```Bash
 pip install sequence2hash
 ```
 
-## Quick Start
+## 例子
 定义序列变量：
 ```Python
 parameters = {
