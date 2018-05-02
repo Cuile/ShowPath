@@ -24,7 +24,7 @@ setup(
     ## Examples
     Define the sequence variable:
     ```Python
-    Parameters = {
+    parameters = {
         'queryKey': '',
         'constraints': {
             'ids': [],
@@ -50,9 +50,9 @@ setup(
     ```
     Transfer:
     ```Python
-    Import sequence2hash
-    For x in sequence2hash.flatten(parameters):
-        Print(x)
+    import sequence2hash
+    for x in sequence2hash.flatten(parameters):
+        print(x)
     ```
     Output:
     ```Bash
