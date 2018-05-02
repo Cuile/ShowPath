@@ -5,7 +5,7 @@ from collections import Iterable
 path = []
 
 
-def flatten(items, ignore_types=(str, bytes)):
+def flatten(items):
     global path
     # print(path)
     for x in items:
@@ -16,7 +16,7 @@ def flatten(items, ignore_types=(str, bytes)):
             # 把key的值赋给x
             x = items[x]
         # 如果序列是列表类型
-        elif isinstance(items, list):
+        elif isinstance(items, (list, tuple)):
             # 把索引值加入路径
             path.append(str(items.index(x)))
 
@@ -28,7 +28,7 @@ def flatten(items, ignore_types=(str, bytes)):
             continue
 
         # 如果元素是一个序列，且不是str,bytes类型
-        if isinstance(x, Iterable) and not isinstance(x, ignore_types):
+        if isinstance(x, Iterable) and not isinstance(x, (str, bytes)):
             yield from flatten(x)
         else:
             yield {'key': path, 'value': x}

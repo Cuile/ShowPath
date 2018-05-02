@@ -8,9 +8,9 @@ parameters = {
     'queryKey': '',
     'constraints': {
         'ids': [],
-        'phids': [],
+        'phids': (),
         'name': '运营平台',
-        'members': [],
+        'members': ('Bunoob', 1944, 'Google'),
         'watchers': [],
         'status': '',
         'isMilestone': True,
